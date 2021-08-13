@@ -1,0 +1,14 @@
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\bin\Debug\netcoreapp3.1\EmpWage.exe
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\bin\Debug\netcoreapp3.1\EmpWage.deps.json
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\bin\Debug\netcoreapp3.1\EmpWage.runtimeconfig.json
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\bin\Debug\netcoreapp3.1\EmpWage.runtimeconfig.dev.json
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\bin\Debug\netcoreapp3.1\EmpWage.dll
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\bin\Debug\netcoreapp3.1\EmpWage.pdb
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\obj\Debug\netcoreapp3.1\EmpWage.csproj.AssemblyReference.cache
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\obj\Debug\netcoreapp3.1\EmpWage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\obj\Debug\netcoreapp3.1\EmpWage.AssemblyInfoInputs.cache
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\obj\Debug\netcoreapp3.1\EmpWage.AssemblyInfo.cs
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\obj\Debug\netcoreapp3.1\EmpWage.csproj.CoreCompileInputs.cache
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\obj\Debug\netcoreapp3.1\EmpWage.dll
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\obj\Debug\netcoreapp3.1\EmpWage.pdb
+C:\Users\SHIVA KUMAR\source\repos\empWage\empWage\obj\Debug\netcoreapp3.1\EmpWage.genruntimeconfig.cache
