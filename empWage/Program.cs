@@ -1,14 +1,18 @@
 ﻿using System;
 
-namespace EmpWage
+namespace EmployeeWage
 {
     class Program
     {
         static void Main(string[] args)
         {
-            EmpWage.EmployeeClass obj1 = new EmpWage.EmployeeClass();
-            obj1.CompanyEmpWage("CTS", 57, 27, 100);
-            obj1.CompanyEmpWage("TCS", 77, 30, 150);
+            Console.WriteLine("Welcome This is a Employee Wage problem");
+            EmployeeClass Tcs = new EmployeeClass("TCS", 77, 30, 150);
+            EmployeeClass CTS = new EmployeeClass("CTS", 57, 27, 100);
+            Tcs.CompanyEmpWage();
+            Console.WriteLine(Tcs.ToString());
+            CTS.CompanyEmpWage();
+            Console.WriteLine(CTS.ToString());
         }
     }
 }

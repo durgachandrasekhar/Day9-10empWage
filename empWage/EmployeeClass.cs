@@ -4,26 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmpWage
+namespace EmployeeWage
 {
-    class EmployeeClass
+    public class EmployeeClass
     {
         public string Company;
         public int WagePerHour;
         public int MaxHoursPerMonth;
         public int MaxWorkingDays;
-        public void CompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays)
+        public int TotalEmpWage;
+        public EmployeeClass(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays)
         {
-            Company = company;
-            WagePerHour = wagePerHour;
-            MaxHoursPerMonth = maxHoursPerMonth;
-            MaxWorkingDays = maxWorkingDays;
-
+            this.Company = company;
+            this.WagePerHour = wagePerHour;
+            this.MaxHoursPerMonth = maxHoursPerMonth;
+            this.MaxWorkingDays = maxWorkingDays;
+        }
+        public void CompanyEmpWage()
+        {
             int empHours = 0;
             int empDailyWage = 0;
             int workingDays = 0;
             int workingHrs = 0;
-            int totalWage = 0;
 
             Random rand = new Random();
 
@@ -48,7 +50,7 @@ namespace EmpWage
 
                 }
                 empDailyWage = empHours * WagePerHour;
-                totalWage += empDailyWage;
+                TotalEmpWage += empDailyWage;
                 workingHrs += empHours;
 
             }
@@ -56,7 +58,12 @@ namespace EmpWage
             Console.WriteLine("Employee Working Hours :" + workingHrs);
             Console.WriteLine("Employee Wage Per day :" + empDailyWage);
             Console.WriteLine("Employee Working days in month :" + workingDays);
-            Console.WriteLine("Employee Wage for working days :" + totalWage);
+            Console.WriteLine("Employee Wage for working days :" + TotalEmpWage);
+
+        }
+        public string ToString()
+        {
+            return "Total employee wage for " + Company + " is " + TotalEmpWage;
         }
     }
 }
