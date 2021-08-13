@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EmpWage
 {
-    public interface ComputeWage
+    public interface IComputeWage
     {
         public void AddCompanyEmpWage(string company, int wagePerHour, int maxHoursPerMonth, int maxWorkingDays);
         public void ComputeEmpWage();
