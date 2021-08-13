@@ -76,5 +76,7 @@ namespace EmpWage
             return this.companyWage[company].TotalEmpWage;
         }
 
-    }
+
+        }
+
 }
