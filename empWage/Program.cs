@@ -6,9 +6,13 @@ namespace EmpWage
     {
         static void Main(string[] args)
         {
-            EmpWage.EmployeeClass obj1 = new EmpWage.EmployeeClass();
-            obj1.CompanyEmpWage("CTS", 57, 27, 100);
-            obj1.CompanyEmpWage("TCS", 77, 30, 150);
+
+            EmployeeWage employee = new EmployeeWage();
+
+            employee.AddCompanyEmpWage("TCS", 20, 22, 121);
+            employee.AddCompanyEmpWage("CTS", 33, 24, 134);
+            employee.ComputeEmpWage();
+
         }
     }
 }
